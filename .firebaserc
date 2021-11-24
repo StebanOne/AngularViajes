@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-53496": {
+      "hosting": {
+        "YeferPractica": [
+          "login-53496"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-53496"
+  }
+}

@@ -1,0 +1,27 @@
+<div class="card mt-2">
+  <div class="card-header">
+    Detalles de reserva
+  </div>
+  <div class="card-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        Ubicacion: <h5>{{ value.ubicacion }}</h5>
+      </li>
+      <li class="list-group-item">
+        Llegada: <h5>{{ value.llegada  }}</h5>
+      </li>
+      <li class="list-group-item">
+        Salida: <h5>{{ value.salida  }}</h5>
+      </li>
+      <li class="list-group-item">
+        Personas: <h5>{{ value.pasajeros }}</h5>
+      </li>
+    </ul>
+  </div>
+
+  <div class="btn btn-group">
+    <button type= "button"class="btn btn-outline-warning" (click)="onEdit()">Editar</button>
+    <button type="button "class="btn btn-outline-warning" (click)="onEliminar()">Eliminar</button>
+
+  </div>
+</div>
